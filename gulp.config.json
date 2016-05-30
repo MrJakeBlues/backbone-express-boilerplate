@@ -1,0 +1,17 @@
+{
+  "vendorjs": [
+  ],
+  "vendorcss": [
+  ],
+  "images": [
+  ],
+  "favicon": [
+  ],
+  "fonts": [
+  ],
+  "sass": [
+    "./client/src/sass/**/*.scss"
+  ],
+  "build": "./client/www/",
+  "client": "./client/src/"
+}

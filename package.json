@@ -1,0 +1,44 @@
+{
+  "name": "www.7storona.com",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "bower": "^1.6.5",
+    "del": "^2.0.2",
+    "eslint": "^1.9.0",
+    "eslint-plugin-backbone": "^1.1.0",
+    "eslint-plugin-requirejs": "^0.6.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bytediff": "^1.0.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-sass": "^2.1.0",
+    "gulp-util": "^3.0.7"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.14.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^1.0.5",
+    "cookie-parser": "^1.4.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "jimp": "^0.2.21",
+    "mongoose": "^4.2.4",
+    "morgan": "^1.6.1",
+    "multer": "^1.1.0",
+    "passport": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.3.0",
+    "slug": "^0.9.1"
+  },
+  "scripts": {
+    "start": "node server",
+    "boostrap": "npm install; bower install"
+  }
+}
